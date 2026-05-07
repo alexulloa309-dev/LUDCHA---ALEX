@@ -1,18 +1,8 @@
 [
   {
-    "nombre": "Hombro de Birkin",
-    "categoria": "Eco cuero / simil cuero",
-    "imagen": "birkin-hombro.png"
-  },
-  {
     "nombre": "Cadena Birkin",
     "categoria": "Eco cuero / simil cuero",
     "imagen": "birkin-chain.png"
-  },
-  {
-    "nombre": "Cinturón MasBolsos",
-    "categoria": "Charol / brillo",
-    "imagen": "cinturón de masbolsos.png"
   },
   {
     "nombre": "Santal",
@@ -25,19 +15,9 @@
     "imagen": "jeanique.png"
   },
   {
-    "nombre": "Eclipse Medium",
-    "categoria": "Eco cuero / simil cuero",
-    "imagen": "eclipse-medio.png"
-  },
-  {
     "nombre": "Eclipse",
     "categoria": "Eco cuero / simil cuero",
     "imagen": "eclipse.png"
-  },
-  {
-    "nombre": "Crossbody",
-    "categoria": "Charol / brillo",
-    "imagen": "crossbody.png"
   },
   {
     "nombre": "Hipster",
@@ -45,24 +25,9 @@
     "imagen": "hipster.png"
   },
   {
-    "nombre": "Revel",
-    "categoria": "Noche / statement",
-    "imagen": "revelar.png"
-  },
-  {
     "nombre": "Retro",
     "categoria": "Eco cuero / simil cuero",
     "imagen": "retro.png"
-  },
-  {
-    "nombre": "Y2KiiS",
-    "categoria": "Charol / brillo",
-    "imagen": "y2kiis.png"
-  },
-  {
-    "nombre": "Hobo Minimalista",
-    "categoria": "Eco cuero / simil cuero",
-    "imagen": "vagabundo-minimalista.png"
   },
   {
     "nombre": "Demin80",
@@ -100,24 +65,9 @@
     "imagen": "obsidiana.png"
   },
   {
-    "nombre": "Anarchy",
-    "categoria": "Eco cuero / simil cuero",
-    "imagen": "anarquía.png"
-  },
-  {
     "nombre": "Koz Bombon",
     "categoria": "Eco cuero / simil cuero",
     "imagen": "koz-bombon.png"
-  },
-  {
-    "nombre": "Love Basic",
-    "categoria": "Eco cuero / simil cuero",
-    "imagen": "amor-básico.png"
-  },
-  {
-    "nombre": "Osiris",
-    "categoria": "Tote / urbano",
-    "imagen": "osirisjpg.png"
   },
   {
     "nombre": "Rusa",
@@ -128,11 +78,6 @@
     "nombre": "Peluchito Light",
     "categoria": "Peluchito / invierno",
     "imagen": "peluchito-light.png"
-  },
-  {
-    "nombre": "Colección Lentejuelas",
-    "categoria": "Noche / brillo",
-    "imagen": "colección-lentejas.png"
   },
   {
     "nombre": "Carteras Demin VIP",
@@ -160,11 +105,6 @@
     "imagen": "savage.png"
   },
   {
-    "nombre": "La Esencial Icónica",
-    "categoria": "Charol / brillo",
-    "imagen": "la-esencial-icónica.png"
-  },
-  {
     "nombre": "Nova Jean",
     "categoria": "Eco cuero / simil cuero",
     "imagen": "nova-jean.png"
@@ -173,16 +113,6 @@
     "nombre": "ToTe Bag",
     "categoria": "Tote / urbano",
     "imagen": "tote-bag.png"
-  },
-  {
-    "nombre": "ToTe Black",
-    "categoria": "Tote / urbano",
-    "imagen": "tote-black.png"
-  },
-  {
-    "nombre": "Vintage para salir Negro Tweed",
-    "categoria": "Paño / tweed",
-    "imagen": "vintage-para-salir-negro-tweed.png"
   },
   {
     "nombre": "Satchel",
@@ -200,21 +130,6 @@
     "imagen": "bandolera-unisex.png"
   },
   {
-    "nombre": "Vintage para salir Rosa Tweed",
-    "categoria": "Paño / tweed",
-    "imagen": "vintage-para-salir-rosa-tweed.png"
-  },
-  {
-    "nombre": "Vintage para salir Negra con Moño",
-    "categoria": "Noche / statement",
-    "imagen": "vintage-para-salir-negra-con-mono.png"
-  },
-  {
-    "nombre": "Riñonera Azul",
-    "categoria": "Riñonera / urbana",
-    "imagen": "rinonera-azul.png"
-  },
-  {
     "nombre": "Blanca Texturada",
     "categoria": "Eco cuero / texturada",
     "imagen": "blanca-texturada.png"
@@ -228,11 +143,6 @@
     "nombre": "Económica Blanca con Mariposa",
     "categoria": "Económicas",
     "imagen": "economica-blanca-con-mariposa.png"
-  },
-  {
-    "nombre": "Económica Blanca Tote",
-    "categoria": "Económicas",
-    "imagen": "bolso-económico-blanco.png"
   },
   {
     "nombre": "Económica Negra Básica",
