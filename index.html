@@ -698,7 +698,7 @@
             galleryContainer.innerHTML = items.map((cartera, index) => `
                 <div class="gallery-item">
                     <div class="gallery-image">
-                        <img src="imagenes/${cartera.imagen}" alt="${cartera.nombre}" onerror="this.style.display='none'">
+                        <img src="imagenes/${cartera.imagen}.png" alt="${cartera.nombre}" onerror="this.style.display='none'">
                     </div>
                     <div class="gallery-name">${cartera.nombre}</div>
                     <div class="gallery-category">${cartera.categoria}</div>
@@ -713,7 +713,7 @@
             bestsellersContainer.innerHTML = primeras.map((cartera, index) => `
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="imagenes/${cartera.imagen}" alt="${cartera.nombre}" onerror="this.style.display='none'">
+                        <img src="imagenes/${cartera.imagen}.png" alt="${cartera.nombre}" onerror="this.style.display='none'">
                     </div>
                     <div class="product-name">${cartera.nombre}</div>
                     <div class="product-category">${cartera.categoria}</div>
