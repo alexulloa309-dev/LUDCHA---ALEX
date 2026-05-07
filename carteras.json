@@ -2,151 +2,211 @@
   {
     "nombre": "Cadena Birkin",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "birkin-chain.png"
+    "imagen": "birkin-chain.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Santal",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "santal.png"
+    "imagen": "santal.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Jeanique",
     "categoria": "Jean / mezclilla",
-    "imagen": "jeanique.png"
+    "imagen": "jeanique.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Eclipse",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "eclipse.png"
+    "imagen": "eclipse.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Hipster",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "hipster.png"
+    "imagen": "hipster.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Retro",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "retro.png"
+    "imagen": "retro.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Demin80",
     "categoria": "Jean / mezclilla",
-    "imagen": "demin80.png"
+    "imagen": "demin80.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Rockstar",
     "categoria": "Noche / statement",
-    "imagen": "rockstar.png"
+    "imagen": "rockstar.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Media Luna Gam",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "media-luna-gam.png"
+    "imagen": "media-luna-gam.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Media Luna",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "media-luna.png"
+    "imagen": "media-luna.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Hera",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "hera.png"
+    "imagen": "hera.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Perigeo",
     "categoria": "Trenzadas / texturadas",
-    "imagen": "perigeo.png"
+    "imagen": "perigeo.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Obsidiana",
     "categoria": "Metalizadas / brillo",
-    "imagen": "obsidiana.png"
+    "imagen": "obsidiana.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Koz Bombon",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "koz-bombon.png"
+    "imagen": "koz-bombon.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Rusa",
     "categoria": "Peluchito / invierno",
-    "imagen": "rusa.png"
+    "imagen": "rusa.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Peluchito Light",
     "categoria": "Peluchito / invierno",
-    "imagen": "peluchito-light.png"
+    "imagen": "peluchito-light.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Carteras Demin VIP",
     "categoria": "Jean / mezclilla",
-    "imagen": "carteras-demin-vip.png"
+    "imagen": "carteras-demin-vip.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Vintage Luxe",
     "categoria": "Animal print / estampadas",
-    "imagen": "vintage-luxe.png"
+    "imagen": "vintage-luxe.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Arrugaditas VIP",
     "categoria": "Metalizadas / brillo",
-    "imagen": "arrugaditas-vip.png"
+    "imagen": "arrugaditas-vip.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Jean Infinito",
     "categoria": "Jean / mezclilla",
-    "imagen": "jean-infinito.png"
+    "imagen": "jean-infinito.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Savage",
     "categoria": "Animal print / croco",
-    "imagen": "savage.png"
+    "imagen": "savage.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Nova Jean",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "nova-jean.png"
+    "imagen": "nova-jean.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "ToTe Bag",
     "categoria": "Tote / urbano",
-    "imagen": "tote-bag.png"
+    "imagen": "tote-bag.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Satchel",
     "categoria": "Eco cuero / croco",
-    "imagen": "satchel.png"
+    "imagen": "satchel.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Sobre Basic",
     "categoria": "Sobres / clutch",
-    "imagen": "sobre-basic.png"
+    "imagen": "sobre-basic.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Bandolera UNISEX",
     "categoria": "Bandolera / unisex",
-    "imagen": "bandolera-unisex.png"
+    "imagen": "bandolera-unisex.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Blanca Texturada",
     "categoria": "Eco cuero / texturada",
-    "imagen": "blanca-texturada.png"
+    "imagen": "blanca-texturada.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Negra Plegada",
     "categoria": "Textil / plegada",
-    "imagen": "negra-plegada.png"
+    "imagen": "negra-plegada.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Económica Blanca con Mariposa",
     "categoria": "Económicas",
-    "imagen": "economica-blanca-con-mariposa.png"
+    "imagen": "economica-blanca-con-mariposa.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   },
   {
     "nombre": "Económica Negra Básica",
     "categoria": "Económicas",
-    "imagen": "economica-negra-basica.png"
+    "imagen": "economica-negra-basica.png",
+    "precio": "Consultar precio",
+    "medidas": "Medidas a confirmar"
   }
 ]
