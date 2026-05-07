@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUDCHA - Carteras para las más bellas</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%238B6F47'/%3E%3Ctext x='32' y='39' font-size='18' text-anchor='middle' font-family='Georgia,serif' font-weight='700' fill='white'%3ELCH%3C/text%3E%3C/svg%3E">
     <style>
         * {
             margin: 0;
@@ -38,32 +39,45 @@
         .top-banner {
             background-color: #000;
             color: var(--white);
-            padding: 12px 20px;
+            padding: 0;
             text-align: center;
             font-size: 14px;
             font-weight: bold;
             position: sticky;
             top: 0;
             z-index: 100;
-            min-height: 50px;
+            height: 50px;
             display: flex;
             align-items: center;
-            justify-content: center;
             overflow: hidden;
+            white-space: nowrap;
         }
 
-        .banner-content {
-            animation: slideIn 0.5s ease-in-out;
+        .banner-track {
+            display: flex;
+            width: max-content;
+            animation: bannerMarquee 28s linear infinite;
         }
 
-        @keyframes slideIn {
+        .banner-group {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding-right: 40px;
+        }
+
+        .banner-item {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes bannerMarquee {
             from {
-                opacity: 0;
-                transform: translateY(10px);
+                transform: translateX(0);
             }
             to {
-                opacity: 1;
-                transform: translateY(0);
+                transform: translateX(-50%);
             }
         }
 
@@ -598,6 +612,15 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .banner-group {
+                gap: 28px;
+                padding-right: 28px;
+            }
+
+            .banner-track {
+                animation-duration: 22s;
+            }
+
             .hero h1 {
                 font-size: 48px;
             }
@@ -646,9 +669,22 @@
 </head>
 <body>
     <!-- Top Banner -->
-    <div class="top-banner">
-        <div class="banner-content" id="bannerContent">
-            📍 Envío a todo el país + CBA en el día
+    <div class="top-banner" aria-label="Beneficios y promociones">
+        <div class="banner-track">
+            <div class="banner-group">
+                <span class="banner-item">🔥 Hot Sale</span>
+                <span class="banner-item">💸 20% de descuento por transferencia o efectivo</span>
+                <span class="banner-item">💳 Financiación en cuotas con Go Cuotas y Naranja X</span>
+                <span class="banner-item">🚚 Envíos en el día en Córdoba Capital</span>
+                <span class="banner-item">📦 Envíos a todo el país por Andreani</span>
+            </div>
+            <div class="banner-group" aria-hidden="true">
+                <span class="banner-item">🔥 Hot Sale</span>
+                <span class="banner-item">💸 20% de descuento por transferencia o efectivo</span>
+                <span class="banner-item">💳 Financiación en cuotas con Go Cuotas y Naranja X</span>
+                <span class="banner-item">🚚 Envíos en el día en Córdoba Capital</span>
+                <span class="banner-item">📦 Envíos a todo el país por Andreani</span>
+            </div>
         </div>
     </div>
 
@@ -660,7 +696,6 @@
         </div>
         <div class="nav-right">
             <a href="#catalogo" class="nav-link">Catálogo</a>
-            <button class="shop-btn">🛍️ Shop</button>
         </div>
     </nav>
 
@@ -702,7 +737,7 @@
     <section class="cta-section">
         <h2>¿Ya encontraste tu cartera?</h2>
         <p>Compra ahora y recibe tu pedido a domicilio en toda Argentina</p>
-        <button class="cta-btn">💳 Comprar Ahora</button>
+        <button class="cta-btn" onclick="mostrarTodasLasCarteras(); document.getElementById('catalogo').scrollIntoView({ behavior: 'smooth' });">Ver todas las carteras ↓</button>
     </section>
 
     <!-- Footer -->
@@ -772,24 +807,6 @@
         let categorias = [];
         let categoriaActiva = null;
 
-        // Banners rotativos
-        const banners = [
-            '📍 Envío a todo el país + CBA en el día',
-            '💳 20% OFF con transferencia o efectivo',
-            '3️⃣ 3 CUOTAS SIN INTERÉS'
-        ];
-        let bannerIndex = 0;
-
-        setInterval(() => {
-            bannerIndex = (bannerIndex + 1) % banners.length;
-            const bannerContent = document.getElementById('bannerContent');
-            bannerContent.style.animation = 'none';
-            setTimeout(() => {
-                bannerContent.textContent = banners[bannerIndex];
-                bannerContent.style.animation = 'slideIn 0.5s ease-in-out';
-            }, 10);
-        }, 4000);
-
         // Cargar carteras del JSON
         fetch('carteras.json')
             .then(response => response.json())
@@ -805,8 +822,8 @@
                 // Mostrar primeras 3 como bestsellers
                 mostrarBestsellers();
                 
-                // Mostrar mensaje inicial
-                mostrarEmptyState();
+                // Mostrar todas las carteras al cargar
+                mostrarTodasLasCarteras();
             })
             .catch(error => console.error('Error cargando carteras:', error));
 
@@ -909,7 +926,7 @@
             document.getElementById('detailMeasures').textContent = cartera.medidas || 'Medidas a confirmar';
             
             const mensaje = encodeURIComponent(
-                `Hola Ludcha! Quiero consultar por la cartera ${cartera.nombre}. Precio: ${cartera.precio || 'a confirmar'}`
+                `Hola Ludcha! Quería consultarte por la cartera ${cartera.nombre} y saber cuál es su precio. Muchas gracias 😊`
             );
             document.getElementById('detailWhatsapp').href = `https://wa.me/543512424651?text=${mensaje}`;
             document.getElementById('productModal').classList.add('active');
