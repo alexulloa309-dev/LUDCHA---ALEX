@@ -1,242 +1,242 @@
 [
   {
-    "nombre": "Birkin Shoulder",
+    "nombre": "Hombro de Birkin",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "birkin-shoulder"
+    "imagen": "birkin-hombro.png"
   },
   {
-    "nombre": "Birkin Chain",
+    "nombre": "Cadena Birkin",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "birkin-chain"
+    "imagen": "birkin-chain.png"
   },
   {
-    "nombre": "MasBolsos Belt",
+    "nombre": "Cinturón MasBolsos",
     "categoria": "Charol / brillo",
-    "imagen": "masbolsos-belt"
+    "imagen": "cinturón de masbolsos.png"
   },
   {
     "nombre": "Santal",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "santal"
+    "imagen": "santal.png"
   },
   {
     "nombre": "Jeanique",
-    "categoria": "Jean / denim",
-    "imagen": "jeanique"
+    "categoria": "Jean / mezclilla",
+    "imagen": "jeanique.png"
   },
   {
     "nombre": "Eclipse Medium",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "eclipse-medium"
+    "imagen": "eclipse-medio.png"
   },
   {
     "nombre": "Eclipse",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "eclipse"
+    "imagen": "eclipse.png"
   },
   {
     "nombre": "Crossbody",
     "categoria": "Charol / brillo",
-    "imagen": "crossbody"
+    "imagen": "crossbody.png"
   },
   {
     "nombre": "Hipster",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "hipster"
+    "imagen": "hipster.png"
   },
   {
     "nombre": "Revel",
     "categoria": "Noche / statement",
-    "imagen": "revel"
+    "imagen": "revelar.png"
   },
   {
     "nombre": "Retro",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "retro"
+    "imagen": "retro.png"
   },
   {
     "nombre": "Y2KiiS",
     "categoria": "Charol / brillo",
-    "imagen": "y2kiis"
+    "imagen": "y2kiis.png"
   },
   {
     "nombre": "Hobo Minimalista",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "hobo-minimalista"
+    "imagen": "vagabundo-minimalista.png"
   },
   {
     "nombre": "Demin80",
-    "categoria": "Jean / denim",
-    "imagen": "demin80"
+    "categoria": "Jean / mezclilla",
+    "imagen": "demin80.png"
   },
   {
     "nombre": "Rockstar",
     "categoria": "Noche / statement",
-    "imagen": "rockstar"
+    "imagen": "rockstar.png"
   },
   {
     "nombre": "Media Luna Gam",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "media-luna-gam"
+    "imagen": "media-luna-gam.png"
   },
   {
     "nombre": "Media Luna",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "media-luna"
+    "imagen": "media-luna.png"
   },
   {
     "nombre": "Hera",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "hera"
+    "imagen": "hera.png"
   },
   {
     "nombre": "Perigeo",
     "categoria": "Trenzadas / texturadas",
-    "imagen": "perigeo"
+    "imagen": "perigeo.png"
   },
   {
     "nombre": "Obsidiana",
     "categoria": "Metalizadas / brillo",
-    "imagen": "obsidiana"
+    "imagen": "obsidiana.png"
   },
   {
     "nombre": "Anarchy",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "anarchy"
+    "imagen": "anarquía.png"
   },
   {
     "nombre": "Koz Bombon",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "koz-bombon"
+    "imagen": "koz-bombon.png"
   },
   {
     "nombre": "Love Basic",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "love-basic"
+    "imagen": "amor-básico.png"
   },
   {
     "nombre": "Osiris",
     "categoria": "Tote / urbano",
-    "imagen": "osiris"
+    "imagen": "osirisjpg.png"
   },
   {
     "nombre": "Rusa",
     "categoria": "Peluchito / invierno",
-    "imagen": "rusa"
+    "imagen": "rusa.png"
   },
   {
     "nombre": "Peluchito Light",
     "categoria": "Peluchito / invierno",
-    "imagen": "peluchito-light"
+    "imagen": "peluchito-light.png"
   },
   {
-    "nombre": "Coleccion Lentejuelas",
+    "nombre": "Colección Lentejuelas",
     "categoria": "Noche / brillo",
-    "imagen": "coleccion-lentejuelas"
+    "imagen": "colección-lentejas.png"
   },
   {
     "nombre": "Carteras Demin VIP",
-    "categoria": "Jean / denim",
-    "imagen": "carteras-demin-vip"
+    "categoria": "Jean / mezclilla",
+    "imagen": "carteras-demin-vip.png"
   },
   {
     "nombre": "Vintage Luxe",
     "categoria": "Animal print / estampadas",
-    "imagen": "vintage-luxe"
+    "imagen": "vintage-luxe.png"
   },
   {
     "nombre": "Arrugaditas VIP",
     "categoria": "Metalizadas / brillo",
-    "imagen": "arrugaditas-vip"
+    "imagen": "arrugaditas-vip.png"
   },
   {
     "nombre": "Jean Infinito",
-    "categoria": "Jean / denim",
-    "imagen": "jean-infinito"
+    "categoria": "Jean / mezclilla",
+    "imagen": "jean-infinito.png"
   },
   {
     "nombre": "Savage",
     "categoria": "Animal print / croco",
-    "imagen": "savage"
+    "imagen": "savage.png"
   },
   {
-    "nombre": "La Esencial Iconic",
+    "nombre": "La Esencial Icónica",
     "categoria": "Charol / brillo",
-    "imagen": "la-esencial-iconic"
+    "imagen": "la-esencial-icónica.png"
   },
   {
     "nombre": "Nova Jean",
     "categoria": "Eco cuero / simil cuero",
-    "imagen": "nova-jean"
+    "imagen": "nova-jean.png"
   },
   {
     "nombre": "ToTe Bag",
     "categoria": "Tote / urbano",
-    "imagen": "tote-bag"
+    "imagen": "tote-bag.png"
   },
   {
     "nombre": "ToTe Black",
     "categoria": "Tote / urbano",
-    "imagen": "tote-black"
+    "imagen": "tote-black.png"
   },
   {
     "nombre": "Vintage para salir Negro Tweed",
     "categoria": "Paño / tweed",
-    "imagen": "vintage-para-salir-negro-tweed"
+    "imagen": "vintage-para-salir-negro-tweed.png"
   },
   {
     "nombre": "Satchel",
     "categoria": "Eco cuero / croco",
-    "imagen": "satchel"
+    "imagen": "satchel.png"
   },
   {
     "nombre": "Sobre Basic",
     "categoria": "Sobres / clutch",
-    "imagen": "sobre-basic"
+    "imagen": "sobre-basic.png"
   },
   {
     "nombre": "Bandolera UNISEX",
     "categoria": "Bandolera / unisex",
-    "imagen": "bandolera-unisex"
+    "imagen": "bandolera-unisex.png"
   },
   {
     "nombre": "Vintage para salir Rosa Tweed",
     "categoria": "Paño / tweed",
-    "imagen": "vintage-para-salir-rosa-tweed"
+    "imagen": "vintage-para-salir-rosa-tweed.png"
   },
   {
     "nombre": "Vintage para salir Negra con Moño",
     "categoria": "Noche / statement",
-    "imagen": "vintage-para-salir-negra-con-mono"
+    "imagen": "vintage-para-salir-negra-con-mono.png"
   },
   {
     "nombre": "Riñonera Azul",
     "categoria": "Riñonera / urbana",
-    "imagen": "rinonera-azul"
+    "imagen": "rinonera-azul.png"
   },
   {
     "nombre": "Blanca Texturada",
     "categoria": "Eco cuero / texturada",
-    "imagen": "blanca-texturada"
+    "imagen": "blanca-texturada.png"
   },
   {
     "nombre": "Negra Plegada",
     "categoria": "Textil / plegada",
-    "imagen": "negra-plegada"
+    "imagen": "negra-plegada.png"
   },
   {
-    "nombre": "Economica Blanca con Mariposa",
-    "categoria": "Economicas",
-    "imagen": "economica-blanca-con-mariposa"
+    "nombre": "Económica Blanca con Mariposa",
+    "categoria": "Económicas",
+    "imagen": "economica-blanca-con-mariposa.png"
   },
   {
-    "nombre": "Economica Blanca Tote",
-    "categoria": "Economicas",
-    "imagen": "economica-blanca-tote"
+    "nombre": "Económica Blanca Tote",
+    "categoria": "Económicas",
+    "imagen": "bolso-económico-blanco.png"
   },
   {
-    "nombre": "Economica Negra Basica",
-    "categoria": "Economicas",
-    "imagen": "economica-negra-basica"
+    "nombre": "Económica Negra Básica",
+    "categoria": "Económicas",
+    "imagen": "economica-negra-basica.png"
   }
 ]
